@@ -1,0 +1,234 @@
+/*
+# ..........................
+# .. _______________________
+# . / . ____/ . ____/ . ____/
+#  /. /___   (___.. ) __ ..).
+#  l_____/  ______/  _____/..
+# ..........................
+*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+/* ---------------------------------------------variables */
+:root{
+  --green-color: #7ACC2D;
+  --white-color: white;
+  --black-color: #313337;
+  /* tipografia */
+  --normal: 12px;
+  /* Espaciado */
+  --space: 10px;
+  /* box-shadow */
+  --box:0px 0px 1px 0px #c1bcbc;
+}
+
+
+
+
+
+/* ---------------------------------------------variables */
+
+html, body{
+  padding: 0px;
+  margin:  0px;
+  font-size:var(--normal);
+  font-family: 'Open Sans', sans-serif;
+
+}
+
+label{
+  font-size: var(--normal);
+}
+
+nav{
+  display: flex;
+  background-color: var(--green-color);
+  padding: var(--space);
+  color: white;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.brand_image:hover{
+  height: 35px;
+  width:  80px;
+  background-color: #5e9e21;
+}
+
+nav ul{
+  display: flex;
+
+}
+
+nav li{
+  padding-left: 20px;
+  list-style: none;
+}
+
+nav li a{
+  color: var(--black-color);
+  text-decoration: none;
+}
+
+nav li a:hover{
+  color: var(--white-color);
+}
+
+/* ---------------------------------------------------Main section */
+.main_section {
+  padding: 15%;
+  text-align: center;
+}
+
+.products{
+  background-image: url("../imagenes/curve.png");
+  height: 50px;
+  background-size: cover;
+  background-position: center top;
+  padding: 20%;
+  display: flex;
+}
+
+.product{
+  padding: var(--space);
+  margin-top: -240px
+}
+
+.product .content{
+  background-color: var(--white-color);
+  padding: 15px;
+  box-shadow: var(--box);
+}
+
+.img_content{
+  text-align: center;
+
+}
+
+.main_button{
+  background-color: var(--green-color);
+  width: 100%;
+  padding: var(--space);
+  font-size: var(--normal);
+  color: white;
+  border: 0;
+  cursor: pointer;
+  border-radius: 2px;
+  align-content:
+}
+
+.main_button:hover{
+  background-color: #5e9e21;
+}
+/* .........................................................home */
+
+.home{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 5%;
+  padding: 15px;
+}
+
+.img1{
+  flex-direction: column;
+  text-align: center;
+  width: 150px;
+  margin: 10px 50px;
+  padding: 20px;
+}
+
+.img2{
+  flex-direction: column;
+  text-align: center;
+  width: 150px;
+  margin: 10px 50px;
+  padding: 20px;
+}
+
+.img3{
+      flex-direction: column;
+      text-align: center;
+      width: 150px;
+      margin: 10px 50px;
+      padding: 20px;
+}
+
+hr{
+  width: 80%;
+  background-color: #c1bcbc;
+}
+/* ..................................................menciones */
+.cuadro{
+  width: 270px;
+  height: 230px;
+  margin: 10px 10px;
+  border: 1px solid grey;
+  box-shadow:  5px 5px 10px 0px black;
+}
+
+.cuadro h2 {
+  padding: 5px 10px;
+  margin-bottom: 0px;
+}
+
+.cuadro p{
+  padding: 5px 10px;
+  margin-top: 0px;
+}
+
+.cuadro img{
+  width: 270px;
+  height: 130px;
+}
+
+.menciones{
+  display: flex;
+  flex-flow: wrap;
+  justify-content: center;
+  padding: 5%
+}
+
+.titulo{
+  text-align: center;
+  margin-top:  10%;
+  margin-bottom: 5%;
+}
+
+/* ...........................................................venta */
+.modulo_pago{
+  background-color: var(--white-color);
+  box-shadow: var(--box);
+  padding: var(--space);
+}
+
+.modulo_pago_images{
+  max-width: 150px;
+  text-align: center;
+  width: 100%;
+  margin: auto;
+}
+
+.data{
+  margin-top: var(--space);
+  width: 100%;
+  height: 35px;
+  border-radius: 2px;
+  box-sizing: border-box;
+}
+
+.modulo_pago .main_button{
+  margin-top: 10px;
+}
+
+footer{
+  display: flex;
+  justify-content: space-between;
+  background: #343232;
+  align-items: center;
+  margin-top: 55px;
+  font-size: var(--normal);
+  padding: var(--space);
+  color: white;
+}
+
+.contact a{
+  color: var(--green-color);
+}
